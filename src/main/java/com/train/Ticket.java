@@ -8,7 +8,8 @@ public class Ticket {
         this.round = round;
     }
     public void print(){
-        System.out.println("Total tickets: "+total + "\n" + "Round-trip:" + round + "\n" + "Total:" + (int)(1000 * (total-round) + 2000*0.9*round)) ;
+        int all = (int) (1000 * (total-round) + 2000*0.9*round);
+        System.out.println("Total tickets: "+total + "\n" + "Round-trip:" + round + "\n" + "Total:" + all) ;
     }
 
 }

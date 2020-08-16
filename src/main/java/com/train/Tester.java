@@ -9,7 +9,7 @@ public class Tester {
         int total = scanner.nextInt();
         System.out.println("How many round-trip tickets: ");
         int round = scanner.nextInt();
-        Ticket ticket = new Ticket(total,round);
-        ticket.print();
+        Ticket tic = new Ticket(total,round);
+        tic.print();
     }
 }
